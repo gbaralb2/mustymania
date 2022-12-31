@@ -15,7 +15,7 @@ D:/repos/mustymania/mustymania_game
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-61615
+49649
 Successfully changed project path to: D:/repos/mustymania/mustymania_game
 D:/repos/mustymania/mustymania_game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/repos/mustymania/mustymania_game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 84.51 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 90.70 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.6f1 (7da38d85baf6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
@@ -63,37 +63,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56092
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56588
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006048 seconds.
+Registered in 0.005306 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 85.46 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 85.19 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.566 seconds
+- Completed reload, in  0.553 seconds
 Domain Reload Profiling:
-	ReloadAssembly (567ms)
-		BeginReloadAssembly (62ms)
+	ReloadAssembly (553ms)
+		BeginReloadAssembly (57ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (411ms)
-			LoadAssemblies (60ms)
+		EndReloadAssembly (404ms)
+			LoadAssemblies (56ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (90ms)
+			SetupTypeCache (87ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (253ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (251ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (86ms)
+				RefreshPlugins (85ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (121ms)
+				ProcessInitializeOnLoadAttributes (119ms)
 				ProcessInitializeOnLoadMethodAttributes (39ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -101,51 +101,51 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004025 seconds.
+Registered in 0.003757 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\repos\mustymania\mustymania_game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\repos\mustymania\mustymania_game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 93.89 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 86.19 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.126 seconds
+- Completed reload, in  0.978 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1126ms)
-		BeginReloadAssembly (96ms)
+	ReloadAssembly (978ms)
+		BeginReloadAssembly (92ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (922ms)
-			LoadAssemblies (76ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (791ms)
+			LoadAssemblies (61ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (238ms)
+			SetupTypeCache (205ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (508ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (436ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (94ms)
-				BeforeProcessingInitializeOnLoad (100ms)
-				ProcessInitializeOnLoadAttributes (258ms)
-				ProcessInitializeOnLoadMethodAttributes (44ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				RefreshPlugins (86ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (218ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.42 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4221 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 51 unused Assets / (128.1 KB). Loaded Objects now: 4676.
 Memory consumption went from 157.5 MB to 157.3 MB.
-Total: 4.403900 ms (FindLiveObjects: 0.379200 ms CreateObjectMapping: 0.464400 ms MarkObjects: 3.489300 ms  DeleteObjects: 0.070200 ms)
+Total: 2.908600 ms (FindLiveObjects: 0.276900 ms CreateObjectMapping: 0.254100 ms MarkObjects: 2.297000 ms  DeleteObjects: 0.079800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -159,133 +159,283 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 280273.477714 seconds.
-  path: Assets/Hero Knight - Pixel Art/Environment/Walls_noFriction.physicsMaterial2D
-  artifactKey: Guid(9c497a4ce1f356b448c0dd3eca091d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hero Knight - Pixel Art/Environment/Walls_noFriction.physicsMaterial2D using Guid(9c497a4ce1f356b448c0dd3eca091d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89901c79659e4baf485298e970362244') in 0.028451 seconds 
+  Time since last request: 40699.392482 seconds.
+  path: Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_1.asset
+  artifactKey: Guid(41803406f3eed684c9cb2a19c02562b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_1.asset using Guid(41803406f3eed684c9cb2a19c02562b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abf96b554cb9bcfd52d85d467997c8e0') in 0.053745 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Hero Knight - Pixel Art/Environment/EnvironmentTiles_3.asset
-  artifactKey: Guid(50037ea5bf884e3438442ce9d2f0df1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hero Knight - Pixel Art/Environment/EnvironmentTiles_3.asset using Guid(50037ea5bf884e3438442ce9d2f0df1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '565788d2432c9c9dd6d86c472ff9835f') in 0.030752 seconds 
+  Time since last request: 0.000022 seconds.
+  path: Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_45.asset
+  artifactKey: Guid(ca4bc6eda2201fe4fa90ce783506b266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_45.asset using Guid(ca4bc6eda2201fe4fa90ce783506b266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1f2a6bb3a507240b1b2777d5e2c74e2') in 0.008695 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Hero Knight - Pixel Art/Environment/EnvironmentPalette_HeroKnight.prefab
-  artifactKey: Guid(d0a86346e04015245ae6126e465b87c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hero Knight - Pixel Art/Environment/EnvironmentPalette_HeroKnight.prefab using Guid(d0a86346e04015245ae6126e465b87c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c475dae4a4858f0afc3bbd33b0abf748') in 0.053300 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003725 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\repos\mustymania\mustymania_game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\repos\mustymania\mustymania_game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.29 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.996 seconds
-Domain Reload Profiling:
-	ReloadAssembly (997ms)
-		BeginReloadAssembly (119ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (782ms)
-			LoadAssemblies (73ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (242ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (379ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (76ms)
-				ProcessInitializeOnLoadAttributes (240ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.59 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4209 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (95.3 KB). Loaded Objects now: 4699.
-Memory consumption went from 161.0 MB to 160.9 MB.
-Total: 2.699500 ms (FindLiveObjects: 0.307300 ms CreateObjectMapping: 0.297500 ms MarkObjects: 2.061300 ms  DeleteObjects: 0.032300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 0.000015 seconds.
+  path: Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_12.asset
+  artifactKey: Guid(d642c7adb9e7704468c172a52984df1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_12.asset using Guid(d642c7adb9e7704468c172a52984df1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bce32e4567c57ffd621ed1b098ad06b') in 0.021760 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 173.962521 seconds.
-  path: Assets/Warped Caves/Artwork/Environment/Props/gate-02.png
-  artifactKey: Guid(807938e2e2a1d4f6baa7f8f80efa7f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Warped Caves/Artwork/Environment/Props/gate-02.png using Guid(807938e2e2a1d4f6baa7f8f80efa7f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e98813ca4064c529df5ae34369b32a9a') in 0.060255 seconds 
+  Time since last request: 0.000019 seconds.
+  path: Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_20.asset
+  artifactKey: Guid(1039d31b05d6afd4ca1a913e261f4688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_20.asset using Guid(1039d31b05d6afd4ca1a913e261f4688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aa8280289503331449df962a99142f8') in 0.024058 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Warped Caves/Artwork/Environment/Props/stalactite.png
-  artifactKey: Guid(64eebde81b28b4bf09d486851692948b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Warped Caves/Artwork/Environment/Props/stalactite.png using Guid(64eebde81b28b4bf09d486851692948b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a9a9e79c08574024527c824e1eee10a') in 0.012696 seconds 
+  Time since last request: 0.000022 seconds.
+  path: Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_44.asset
+  artifactKey: Guid(fba2fa1ed99bcc14089014d6d2c6dde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_44.asset using Guid(fba2fa1ed99bcc14089014d6d2c6dde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecc68dd71eaddda874690fdb378aa406') in 0.007569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_55.asset
+  artifactKey: Guid(cf0d423e9fac999458e7902fc99dbabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_55.asset using Guid(cf0d423e9fac999458e7902fc99dbabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91525196fab9d959a67ee447c112a234') in 0.007090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_47.asset
+  artifactKey: Guid(f6fb47eaae23928418f9de0ee388fb88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_47.asset using Guid(f6fb47eaae23928418f9de0ee388fb88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e723dc8fcd81517756ed3b264766083') in 0.010644 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000014 seconds.
-  path: Assets/Warped Caves/Artwork/Environment/Props/plant-small.png
-  artifactKey: Guid(a77f62efa515f402db40ed83d40adbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Warped Caves/Artwork/Environment/Props/plant-small.png using Guid(a77f62efa515f402db40ed83d40adbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e996dafe667ad879f4228b571bae2d0b') in 0.012312 seconds 
+  path: Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_72.asset
+  artifactKey: Guid(31cf63bc57703e84094a0d82c1c898be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_72.asset using Guid(31cf63bc57703e84094a0d82c1c898be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '092cf1596dc357f7e5149407839137b4') in 0.007451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_49.asset
+  artifactKey: Guid(315300a39a7ccef4296d0de8c98c8d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_49.asset using Guid(315300a39a7ccef4296d0de8c98c8d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a683b2c4f77c1cfcd067962ebc067137') in 0.007546 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000017 seconds.
-  path: Assets/Warped Caves/Artwork/Environment/Props/plant-big.png
-  artifactKey: Guid(c5f562f1c91da468b9c01eaf24858791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Warped Caves/Artwork/Environment/Props/plant-big.png using Guid(c5f562f1c91da468b9c01eaf24858791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b71dfe448b6fbf85a18e75acf408ea7') in 0.016198 seconds 
+  path: Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_58.asset
+  artifactKey: Guid(7d899d3ba2a8d1549b0cc24456e13ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_58.asset using Guid(7d899d3ba2a8d1549b0cc24456e13ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94a3f7f100ee30ebb5738e6fa4ee73b5') in 0.006998 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Warped Caves/Artwork/Environment/Props/stone-head.png
-  artifactKey: Guid(9d8e964dd7ceb466c87030d97a40e214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Warped Caves/Artwork/Environment/Props/stone-head.png using Guid(9d8e964dd7ceb466c87030d97a40e214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '095e409321f24fede40c7ffa77f88140') in 0.011185 seconds 
+  Time since last request: 0.000016 seconds.
+  path: Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_27.asset
+  artifactKey: Guid(50bfdc14265b23749bffaf3c8fcb9802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_27.asset using Guid(50bfdc14265b23749bffaf3c8fcb9802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10ee2e48b8abc8e8f40339045f6e9eff') in 0.007439 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.727252 seconds.
-  path: Assets/Warped Caves/Artwork/Sprites/enemies/crab-walk/crab-walk-2.png
-  artifactKey: Guid(284cb317a22f3449cacdcb162bdb8174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Warped Caves/Artwork/Sprites/enemies/crab-walk/crab-walk-2.png using Guid(284cb317a22f3449cacdcb162bdb8174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc3d603269a143ca4e6fcf628e05fdc4') in 0.017495 seconds 
+  Time since last request: 0.000014 seconds.
+  path: Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_52.asset
+  artifactKey: Guid(e453e0deb7bc08744a968673a9bcfc79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_52.asset using Guid(e453e0deb7bc08744a968673a9bcfc79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dffa6b5b180e5fc9389781f5510dad4') in 0.007323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_3.asset
+  artifactKey: Guid(6178fa544e0cec240a11c88bbf3b1352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_3.asset using Guid(6178fa544e0cec240a11c88bbf3b1352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fbb0e96776fcacb915e8abd6c27d3ed') in 0.007091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_37.asset
+  artifactKey: Guid(b6f91d20ba33ac7479b2392cf0761695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_37.asset using Guid(b6f91d20ba33ac7479b2392cf0761695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ac32eb2cf243ff10fd46942b7cce84d') in 0.007675 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000015 seconds.
-  path: Assets/Warped Caves/Artwork/Sprites/enemies/crab-walk/crab-walk-4.png
-  artifactKey: Guid(2e798ad64b4dd4bcba6caefcb145055f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Warped Caves/Artwork/Sprites/enemies/crab-walk/crab-walk-4.png using Guid(2e798ad64b4dd4bcba6caefcb145055f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '801c4ae21a0a49bb4fa8e37d95d71add') in 0.010750 seconds 
+  path: Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_34.asset
+  artifactKey: Guid(bbc74ed6e96a3ac4098bd2db7aab6c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_34.asset using Guid(bbc74ed6e96a3ac4098bd2db7aab6c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0092f608a232f662b8804114adce8dd8') in 0.008006 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.560223 seconds.
-  path: Assets/Warped Caves/Artwork/Environment/middleground-no-fungus.png
-  artifactKey: Guid(b66d951e7d54f45e88bab99f63c58a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Warped Caves/Artwork/Environment/middleground-no-fungus.png using Guid(b66d951e7d54f45e88bab99f63c58a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b96b116fd24c862dee4f024d411fab16') in 0.019134 seconds 
+  Time since last request: 0.000016 seconds.
+  path: Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_69.asset
+  artifactKey: Guid(703d0afadc0379846b0455af4eb591d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_69.asset using Guid(703d0afadc0379846b0455af4eb591d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c069edffbdf476803872763115284ac') in 0.008932 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000015 seconds.
-  path: Assets/Warped Caves/Artwork/Environment/walls-tileset-sliced.png
-  artifactKey: Guid(e8eeee797a1eb41268234a175d2079ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Warped Caves/Artwork/Environment/walls-tileset-sliced.png using Guid(e8eeee797a1eb41268234a175d2079ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05034cfac1ccc9eb889d6b46dc4d35c3') in 0.124353 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  path: Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_46.asset
+  artifactKey: Guid(910865563e4932641af559d69008e5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_46.asset using Guid(910865563e4932641af559d69008e5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7022134cf1319370d01335ee23f7438b') in 0.007568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_29.asset
+  artifactKey: Guid(94b80b6f254e8264c9722bcd13bfd3a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_29.asset using Guid(94b80b6f254e8264c9722bcd13bfd3a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75d0633abc97a52de6c777281b90e47f') in 0.007673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_4.asset
+  artifactKey: Guid(4c6fdd4560fef384aa2ae7bf13ddb405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_4.asset using Guid(4c6fdd4560fef384aa2ae7bf13ddb405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68efa4c27c84ed43ca5eb1cfb0ecacdc') in 0.007513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_17.asset
+  artifactKey: Guid(fe7c482a2fe66dd439ae4c3c75a4f5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_17.asset using Guid(fe7c482a2fe66dd439ae4c3c75a4f5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25ef805e9f05b7f319f4d853a04a6d26') in 0.007273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_2.asset
+  artifactKey: Guid(57aa0bb544f941649b2c9b86e3efe476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_2.asset using Guid(57aa0bb544f941649b2c9b86e3efe476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67fe13e2cba3fc5533cb88e50c566843') in 0.008500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_40.asset
+  artifactKey: Guid(bd0604d156081bc488084e292460db02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_40.asset using Guid(bd0604d156081bc488084e292460db02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5188edc5dfeffc612b35efb881b38832') in 0.009117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_16.asset
+  artifactKey: Guid(449f661e7c3064442b4e156588ec1d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_16.asset using Guid(449f661e7c3064442b4e156588ec1d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9672d381de0f2e68cb0e2fb1c4a16754') in 0.009331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_7.asset
+  artifactKey: Guid(44ba9a230e1629a43b2b1969ec6ba0df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_7.asset using Guid(44ba9a230e1629a43b2b1969ec6ba0df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d56eeda666cba73a821e11f5f2bbe89') in 0.007425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_5.asset
+  artifactKey: Guid(cadfb89c92e03104aa529fd4ac409686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_5.asset using Guid(cadfb89c92e03104aa529fd4ac409686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb884713fa397db6929dccfebe2f638c') in 0.007583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_9.asset
+  artifactKey: Guid(5e6ff9757b170ec49986c42bdd774ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_9.asset using Guid(5e6ff9757b170ec49986c42bdd774ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4baadf387d17f4de3b32d47eb137be88') in 0.007171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_61.asset
+  artifactKey: Guid(15094b73d441c1f488c659cfa97fa59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_61.asset using Guid(15094b73d441c1f488c659cfa97fa59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b11fa3a105dbfcfc935d98e616cf92c') in 0.007289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_6.asset
+  artifactKey: Guid(203a6f2668bbce64ab57a114ae49edfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_6.asset using Guid(203a6f2668bbce64ab57a114ae49edfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '803acdf1294e350f596363af5a802e9d') in 0.007472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_25.asset
+  artifactKey: Guid(117d4870f6c531f4fa8ec7ab163f7455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_25.asset using Guid(117d4870f6c531f4fa8ec7ab163f7455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcc263f694f9b11c80f0209979509c4b') in 0.006929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_26.asset
+  artifactKey: Guid(b740838e6dcbf32439666eafb7f4e9e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_26.asset using Guid(b740838e6dcbf32439666eafb7f4e9e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06f635617165f89e82765a2acca1540b') in 0.008031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_67.asset
+  artifactKey: Guid(a6c8a3fbe8feb9746ad56878ddd17eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_67.asset using Guid(a6c8a3fbe8feb9746ad56878ddd17eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fb7eb8b4cc9db67dce0d541fddd5be3') in 0.007132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_30.asset
+  artifactKey: Guid(5cadb71354ad0c14a91d84604b6293a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_30.asset using Guid(5cadb71354ad0c14a91d84604b6293a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13f3d2c417bc04fd90b60aaeb11fc54d') in 0.007268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_28.asset
+  artifactKey: Guid(3377069db00617a4a84154a8b1af7302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_28.asset using Guid(3377069db00617a4a84154a8b1af7302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '159cc69aa8bdfdaf3cdc6ebafb80a70f') in 0.007188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_56.asset
+  artifactKey: Guid(bd90cac00c6b35b438e70fc954593831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_56.asset using Guid(bd90cac00c6b35b438e70fc954593831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9508394252e41809d6d4ac34337e1386') in 0.007080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_11.asset
+  artifactKey: Guid(fa553b5b56a656c4d95717f14d0ac6ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_11.asset using Guid(fa553b5b56a656c4d95717f14d0ac6ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dda892d7d04c25c9c660d24bef49f46') in 0.007467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_10.asset
+  artifactKey: Guid(5c031ff2443ff114ea3f75ae12e87388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_10.asset using Guid(5c031ff2443ff114ea3f75ae12e87388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26213fced09f8f1e58f52e7df0a85e04') in 0.009573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_62.asset
+  artifactKey: Guid(ba4a333d5899a3b458dd9674daea15ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_62.asset using Guid(ba4a333d5899a3b458dd9674daea15ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e556477fb9b0a879c5842570f97691e') in 0.007399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.433982 seconds.
+  path: Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_78.asset
+  artifactKey: Guid(c49700c5df6f4724a9b11edc746f4622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_78.asset using Guid(c49700c5df6f4724a9b11edc746f4622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd240f9cef146b165902892f81caeff5') in 0.007701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_85.asset
+  artifactKey: Guid(0e21da82013811c428cec133fcaf9106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_85.asset using Guid(0e21da82013811c428cec133fcaf9106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3540f8b4adbaf214672431b7e29c8115') in 0.007546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_87.asset
+  artifactKey: Guid(c50607c080ea99542bfa5401ad623221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_87.asset using Guid(c50607c080ea99542bfa5401ad623221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f6c69005ccf94e1342d72b0b2e3777b') in 0.007846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_84.asset
+  artifactKey: Guid(e9065cef3339f874fa9df5e689c74e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_84.asset using Guid(e9065cef3339f874fa9df5e689c74e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdbb566c8084a65693c94c91cabf7986') in 0.007848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_88.asset
+  artifactKey: Guid(2e6aabae898eab54ba24689f919d64b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_88.asset using Guid(2e6aabae898eab54ba24689f919d64b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a74fcf3e875f4479dc2479e23f4833e3') in 0.007583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_93.asset
+  artifactKey: Guid(8e338201127f9e5448fe691b59d7b9c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_93.asset using Guid(8e338201127f9e5448fe691b59d7b9c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cb79b21e62a2f04cfaa427de2144168') in 0.007388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_91.asset
+  artifactKey: Guid(f1f0c9cc4ad0c284eaa468d56a736778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_91.asset using Guid(f1f0c9cc4ad0c284eaa468d56a736778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f928d410d552c6d56635e6ab362445') in 0.008183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_80.asset
+  artifactKey: Guid(efeaf374cde9f4c458730f73f4aac511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_80.asset using Guid(efeaf374cde9f4c458730f73f4aac511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4134c08cd2e7e19238834e41c70e689f') in 0.007903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_101.asset
+  artifactKey: Guid(85bde46dd4d67fb40907f010e002439e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_101.asset using Guid(85bde46dd4d67fb40907f010e002439e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f6f2582a1863eedd1f37a2aaab2adc6') in 0.008639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_92.asset
+  artifactKey: Guid(99a7b31e5cb556a4fa9ead5c7036ac0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Environment/Tiles/tileset-sliced_92.asset using Guid(99a7b31e5cb556a4fa9ead5c7036ac0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b4e69f8e84358f9430330a41316210f') in 0.008260 seconds 
