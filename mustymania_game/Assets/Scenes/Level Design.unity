@@ -32803,7 +32803,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 321994753694540085, guid: 43ec086b18be0f44aa6102f40e9bfbbc, type: 3}
       propertyPath: m_GravityScale
-      value: 5
+      value: 1.75
       objectReference: {fileID: 0}
     - target: {fileID: 2865803938385432852, guid: 43ec086b18be0f44aa6102f40e9bfbbc, type: 3}
       propertyPath: m_RootOrder
