@@ -32853,6 +32853,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 5204416811848757662, guid: 43ec086b18be0f44aa6102f40e9bfbbc, type: 3}
+      propertyPath: Standing
+      value: 
+      objectReference: {fileID: 21300000, guid: 2a5c2f3ca4ae14e7e91149316db1e054, type: 3}
+    - target: {fileID: 5204416811848757662, guid: 43ec086b18be0f44aa6102f40e9bfbbc, type: 3}
+      propertyPath: Crouching
+      value: 
+      objectReference: {fileID: 21300000, guid: 037f4355400544ba2b7a278f7017ca2f, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43ec086b18be0f44aa6102f40e9bfbbc, type: 3}
 --- !u!1 &1799643683
