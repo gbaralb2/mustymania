@@ -374,6 +374,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 87626372224703516, guid: 7edd5ac5508d1c943a3bd7416c929e13, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 3b708c6c1fc594449a5fce62fbdc6453, type: 2}
+    - target: {fileID: 87626372224703517, guid: 7edd5ac5508d1c943a3bd7416c929e13, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 3b708c6c1fc594449a5fce62fbdc6453, type: 2}
+    - target: {fileID: 87626372224703518, guid: 7edd5ac5508d1c943a3bd7416c929e13, type: 3}
+      propertyPath: m_AirControl
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 87626372224703518, guid: 7edd5ac5508d1c943a3bd7416c929e13, type: 3}
+      propertyPath: m_WhatIsGround.m_Bits
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 87626372224703519, guid: 7edd5ac5508d1c943a3bd7416c929e13, type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 87626372224703519, guid: 7edd5ac5508d1c943a3bd7416c929e13, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 87626372224703520, guid: 7edd5ac5508d1c943a3bd7416c929e13, type: 3}
       propertyPath: m_Name
       value: Player
@@ -424,6 +448,42 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7edd5ac5508d1c943a3bd7416c929e13, type: 3}
+--- !u!4 &855556504 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 87626372224703522, guid: 7edd5ac5508d1c943a3bd7416c929e13, type: 3}
+  m_PrefabInstance: {fileID: 672573004}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1759365199
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1759365200}
+  m_Layer: 0
+  m_Name: FirePoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1759365200
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1759365199}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.185, y: 0.024, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 855556504}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2095051549
 GameObject:
   m_ObjectHideFlags: 0
