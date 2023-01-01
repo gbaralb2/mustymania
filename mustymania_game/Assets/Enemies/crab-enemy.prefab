@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7747316855275267972}
   - component: {fileID: 7747316855275267975}
   - component: {fileID: 7747316855275267970}
-  - component: {fileID: 7747316855275267971}
+  - component: {fileID: 5242145925322559855}
   m_Layer: 0
   m_Name: crab-enemy
   m_TagString: Untagged
@@ -115,7 +115,7 @@ BoxCollider2D:
   m_EdgeRadius: 0
 --- !u!95 &7747316855275267970
 Animator:
-  serializedVersion: 5
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -132,8 +132,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
---- !u!114 &7747316855275267971
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &5242145925322559855
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -142,7 +142,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7747316855275267993}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 630ad2072dba62041a02dd5d94d31d7c, type: 3}
+  m_Script: {fileID: 11500000, guid: 261cde54c30656d40a59c33ed5ec2b14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
