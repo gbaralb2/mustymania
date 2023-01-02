@@ -7,11 +7,21 @@ public class PlayerMovement : MonoBehaviour
 
     public CharacterController2D controller;
 
+    public SpriteRenderer SpriteRenderer;
+    public Sprite Standing;
+    public Sprite Crouching;
+
     public float runSpeed = 40f;
 
     float horizontalMove = 0f;
     bool jump = false;
     bool crouch = false;
+
+    private void Start()
+    {
+        SpriteRenderer = GetComponent<SpriteRenderer>();
+        SpriteRenderer.sprite = Standing;
+    }
 
     // Update is called once per frame
     void Update() {
@@ -22,10 +32,13 @@ public class PlayerMovement : MonoBehaviour
             jump = true;
         }
 
-        if (Input.GetButtonDown("Crouch")) {
+        if (Input.GetKeyDown(KeyCode.C)) {
             crouch = true;
-        } else if (Input.GetButtonUp("Crouch")) {
+            SpriteRenderer.sprite = Crouching;
+
+        } else if (Input.GetKeyUp(KeyCode.C)) {
             crouch = false;
+            SpriteRenderer.sprite = Standing;
         }
 
     }
