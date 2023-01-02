@@ -6,10 +6,10 @@ public class PlayerMovement : MonoBehaviour
 {
 
     public CharacterController2D controller;
+    public Animator animator;
 
-    public SpriteRenderer SpriteRenderer;
-    public Sprite Standing;
-    public Sprite Crouching;
+    //public SpriteRenderer SpriteRenderer;
+    //public Sprite Crouching;
 
     public float runSpeed = 40f;
 
@@ -19,8 +19,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Start()
     {
-        SpriteRenderer = GetComponent<SpriteRenderer>();
-        SpriteRenderer.sprite = Standing;
+        //SpriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -28,19 +27,28 @@ public class PlayerMovement : MonoBehaviour
 
         horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
 
-        if (Input.GetButtonDown("Jump")) {
+        animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
+
+        if (Input.GetButtonDown("Jump")) 
+        {
             jump = true;
         }
 
-        if (Input.GetKeyDown(KeyCode.C)) {
+        if (Input.GetButtonDown("Crouch")) 
+        {
             crouch = true;
-            SpriteRenderer.sprite = Crouching;
 
-        } else if (Input.GetKeyUp(KeyCode.C)) {
+        } 
+        else if (Input.GetButtonUp("Crouch")) 
+        {
             crouch = false;
-            SpriteRenderer.sprite = Standing;
         }
 
+    }
+
+    public void onCrouching(bool isCrouching)
+    {
+        animator.SetBool("isCrouching", isCrouching);
     }
 
     void FixedUpdate() {
