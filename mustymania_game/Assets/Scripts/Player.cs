@@ -7,6 +7,7 @@ public class Player : MonoBehaviour
     // will store level, health, etc. here .... used for saving (PlayerData script)
     //public int level;
     //public int health;
+    public CharacterController2D controller;
 
     public void SavePlayer()
     {
@@ -27,6 +28,18 @@ public class Player : MonoBehaviour
         position.y = data.position[1];
         position.z = data.position[2];
         transform.position = position;
+
+        Quaternion rotation;
+        rotation.x = data.rotation[0];
+        rotation.y = data.rotation[1];
+        rotation.z = data.rotation[2];
+        rotation.w = data.rotation[3];
+        transform.rotation = rotation;
+
+        bool facingRight;
+        facingRight = data.facingRight;
+        controller.SetFacingRight(facingRight);
+
 
         Debug.Log("Loaded!");
     }

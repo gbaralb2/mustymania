@@ -24,14 +24,20 @@ public class Weapon : MonoBehaviour
 
         void CrouchShot()
         {
+            if (PauseMenu.gameIsPaused)
+            {
+                return;
+            }
             Instantiate(bulletPrefab, crouchFirePoint.position, crouchFirePoint.rotation);
         }
 
         void Shoot()
         {
-
+            if (PauseMenu.gameIsPaused)
+            {
+                return;
+            }
             Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
-
         }
     }
 
