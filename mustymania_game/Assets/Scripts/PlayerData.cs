@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 [System.Serializable]
 public class PlayerData
 {
@@ -9,6 +10,7 @@ public class PlayerData
     //public int health;
     public float[] position;
     public float[] rotation;
+    public bool facingRight;
 
     public PlayerData(Player player)
     {
@@ -25,5 +27,8 @@ public class PlayerData
         rotation[1] = player.transform.rotation.y;
         rotation[2] = player.transform.rotation.z;
         rotation[3] = player.transform.rotation.w;
+
+        facingRight = player.controller.GetFacingRight();
+
     }
 }

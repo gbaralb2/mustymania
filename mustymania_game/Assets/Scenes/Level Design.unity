@@ -130,6 +130,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 739376417, guid: 43ec086b18be0f44aa6102f40e9bfbbc, type: 3}
+      propertyPath: controller
+      value: 
+      objectReference: {fileID: 739376421}
     - target: {fileID: 2865803938385432852, guid: 43ec086b18be0f44aa6102f40e9bfbbc, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -20468,6 +20472,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74da39c48ec7d27428735f2c1ab7b796, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &739376421 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4351988540115573044, guid: 43ec086b18be0f44aa6102f40e9bfbbc, type: 3}
+  m_PrefabInstance: {fileID: 31235268}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1613fe6349098c54cacc958c9068805e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &764629071
 GameObject:
   m_ObjectHideFlags: 0
@@ -28428,6 +28443,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -4989910108898269153, guid: 07765cc04d3721c40af23a5e093924f4, type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5242145925322559855, guid: 07765cc04d3721c40af23a5e093924f4, type: 3}
       propertyPath: deathEffect
       value: 
