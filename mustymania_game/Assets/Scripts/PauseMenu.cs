@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
@@ -25,7 +26,7 @@ public class PauseMenu : MonoBehaviour
         }
     }
 
-    void Resume()
+    public void Resume()
     {
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1f; //1f is normal game speed
@@ -37,6 +38,18 @@ public class PauseMenu : MonoBehaviour
         pauseMenuUI.SetActive(true); //SetActive enables/disables gameObjects
         Time.timeScale = 0f;
         gameIsPaused = true;
+    }
+
+    public void LoadMenu()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("Menu"); // change this to use a variable
+    }
+
+    public void QuitGame()
+    {
+        Debug.Log("Quitting Game...");
+        Application.Quit();
     }
 
 }
