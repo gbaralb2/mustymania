@@ -28,15 +28,13 @@ public class Player : MonoBehaviour
         position.z = data.position[2];
         transform.position = position;
 
-        /*
         Quaternion rotation;
         rotation.x = data.rotation[0];
         rotation.y = data.rotation[1];
         rotation.z = data.rotation[2];
         rotation.w = data.rotation[3];
-        rotation = transform.rotation;
         transform.rotation = rotation;
-        */
+
 
         Debug.Log("Loaded!");
     }
