@@ -8,6 +8,7 @@ public class PlayerData
     //public int level;
     //public int health;
     public float[] position;
+    //public float[] rotation;
 
     public PlayerData(Player player)
     {
@@ -18,5 +19,13 @@ public class PlayerData
         position[0] = player.transform.position.x;
         position[1] = player.transform.position.y;
         position[2] = player.transform.position.z;
+
+        /*
+        rotation = new float[4];
+        rotation[0] = player.transform.rotation.x;
+        rotation[1] = player.transform.rotation.y;
+        rotation[2] = player.transform.rotation.z;
+        rotation[3] = player.transform.rotation.w;
+        */
     }
 }
