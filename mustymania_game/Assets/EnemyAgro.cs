@@ -47,12 +47,12 @@ public class EnemyAgro : MonoBehaviour
        if (transform.position.x < player.position.x) 
        {
             rb2d.velocity = new Vector2(moveSpeed, 0);  //left side so moove right
-            transform.localScale = new Vector2(4, 4);
+            transform.localScale = new Vector2(-4, 4);
         }
        else //if (transform.position.x > player.position.x)
         {
             rb2d.velocity = new Vector2(-moveSpeed, 0);//right side so move left
-            transform.localScale = new Vector2(-4, 4);
+            transform.localScale = new Vector2(4, 4);
         }
     }
     void StopChasingPlayer()
