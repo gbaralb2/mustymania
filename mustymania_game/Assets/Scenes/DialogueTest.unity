@@ -525,6 +525,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: {fileID: 290249313}
   dialogueText: {fileID: 1718100281}
+  textSpeed: 0.05
   animator: {fileID: 228701048}
 --- !u!4 &787876449
 Transform:

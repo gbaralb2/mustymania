@@ -6,12 +6,16 @@ using TMPro;
 
 public class DialogueManager : MonoBehaviour
 {
+    public GameObject dialogueBox;
     public TextMeshProUGUI nameText;
     public TextMeshProUGUI dialogueText;
 
+    [SerializeField]
+    public float textSpeed;
+
     public Animator animator;
 
-    private Queue<string> sentences;
+    public Queue<string> sentences;
 
     void Start()
     {
@@ -20,6 +24,8 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(Dialogue dialogue)
     {
+        dialogueBox.SetActive(true);
+
         animator.SetBool("IsOpen", true);
 
         nameText.text = dialogue.name;
@@ -53,13 +59,12 @@ public class DialogueManager : MonoBehaviour
         foreach (char letter in sentence.ToCharArray())
         {
             dialogueText.text += letter;
-            yield return null;
+            yield return new WaitForSeconds(textSpeed);
         }
     }
 
-    void EndDialogue()
+    public void EndDialogue()
     {
         animator.SetBool("IsOpen", false);
     }
-
 }
