@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 180
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -118,8 +118,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4a41fbf59eed7945ab25b922b5c2b50
-      internalID: 838113613
+      spriteID: 56c814a16b205c44dbb9529a256dd304
+      internalID: -2121134516
       vertices: []
       indices: 
       edges: []
@@ -139,8 +139,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5df840dc770340489c96a7bb9e22a17
-      internalID: -1872579207
+      spriteID: fc34d6a66cc94dc45b7e7f701dbb9584
+      internalID: 1242095989
       vertices: []
       indices: 
       edges: []
@@ -160,8 +160,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 519e181c6c7847d4199b98f62abde20c
-      internalID: -1040889456
+      spriteID: 6eded396392b5b44bac5c20ef3e947bb
+      internalID: -420329291
       vertices: []
       indices: 
       edges: []
@@ -181,8 +181,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a10b00c3a5be68b4b87f0e4cd05eb266
-      internalID: -416513782
+      spriteID: c32424d8514cb074bbee8c737a514b7c
+      internalID: -240275519
       vertices: []
       indices: 
       edges: []
@@ -202,8 +202,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1988d5a86e90e824089da378d984c650
-      internalID: 1766818030
+      spriteID: b898b954c969e8a42bfe6d3a60330a2c
+      internalID: -306920825
       vertices: []
       indices: 
       edges: []
@@ -223,8 +223,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42d48fea94454154ea9deb5e8d171749
-      internalID: 100725427
+      spriteID: 89b871f3f2e2a75498c3bcb984d5e7ae
+      internalID: -824330126
       vertices: []
       indices: 
       edges: []
@@ -244,8 +244,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62c41df03daa69442b4a97ca40802f72
-      internalID: 2097164459
+      spriteID: 8b879ff0e6639474ba5df47b8253b172
+      internalID: 398210745
       vertices: []
       indices: 
       edges: []
@@ -265,8 +265,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06ac108358ef1ed4fa3936cfde3aadf5
-      internalID: -289553573
+      spriteID: 6b444181af8f86045aef0b5376e1b3e9
+      internalID: 96381690
       vertices: []
       indices: 
       edges: []
@@ -286,8 +286,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99240f471b029f547bfbc5fa4d931ad6
-      internalID: -664309533
+      spriteID: 6b17d8b11a68f184aa4d6eb017ea1f8c
+      internalID: 395599124
       vertices: []
       indices: 
       edges: []
@@ -307,8 +307,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6dce0624c381a454e9c18ee79fe78279
-      internalID: 1443812461
+      spriteID: ab7182ced5e08394f9022b2fa26a2870
+      internalID: 340243302
       vertices: []
       indices: 
       edges: []
@@ -328,8 +328,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bde52bd686dda2d47a00b61abdecd723
-      internalID: -1583108249
+      spriteID: 828d238b15096d944a03430aa05a6faa
+      internalID: 655459495
       vertices: []
       indices: 
       edges: []
@@ -349,8 +349,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1461cb6121607bb468eb1617e991715e
-      internalID: -1787362481
+      spriteID: 0c69c3b48c44d5149bc409246478c9ab
+      internalID: 833728603
       vertices: []
       indices: 
       edges: []
@@ -370,8 +370,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b28f6cd81da63040aea548f9e46c31f
-      internalID: -848721365
+      spriteID: 530e1b37b355da24e8170dfdfbb28690
+      internalID: 1902033443
       vertices: []
       indices: 
       edges: []
@@ -391,8 +391,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c4c5f7cb59075a43b677e486b6eb098
-      internalID: 766128912
+      spriteID: 53157c9f2c17c5044933eb830abc4c46
+      internalID: -1711334585
       vertices: []
       indices: 
       edges: []
@@ -412,8 +412,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ad13a685f1927044a9cb0de201b3aab
-      internalID: -245531052
+      spriteID: a8e4fbba6df4fae4babd9907efe2a71f
+      internalID: 746847965
       vertices: []
       indices: 
       edges: []
@@ -433,8 +433,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e01991940ea1a7c428d97cb4b2d5d2b1
-      internalID: 1931655175
+      spriteID: 5f537793386babe41ba511b62f5620da
+      internalID: 80171853
       vertices: []
       indices: 
       edges: []
@@ -450,22 +450,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Plague Docta_10: -1583108249
-      Plague Docta_14: -245531052
-      Plague Docta_15: 1931655175
-      Plague Docta_0: 838113613
-      Plague Docta_5: 100725427
-      Plague Docta_4: 1766818030
-      Plague Docta_7: -289553573
-      Plague Docta_8: -664309533
-      Plague Docta_12: -848721365
-      Plague Docta_2: -1040889456
-      Plague Docta_6: 2097164459
-      Plague Docta_9: 1443812461
-      Plague Docta_3: -416513782
-      Plague Docta_11: -1787362481
-      Plague Docta_1: -1872579207
-      Plague Docta_13: 766128912
+      Plague Docta_10: 655459495
+      Plague Docta_14: 746847965
+      Plague Docta_15: 80171853
+      Plague Docta_0: -2121134516
+      Plague Docta_5: -824330126
+      Plague Docta_4: -306920825
+      Plague Docta_7: 96381690
+      Plague Docta_8: 395599124
+      Plague Docta_12: 1902033443
+      Plague Docta_2: -420329291
+      Plague Docta_6: 398210745
+      Plague Docta_9: 340243302
+      Plague Docta_3: -240275519
+      Plague Docta_11: 833728603
+      Plague Docta_1: 1242095989
+      Plague Docta_13: -1711334585
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
