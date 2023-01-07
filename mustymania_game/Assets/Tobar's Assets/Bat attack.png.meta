@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6e06b171aabdd8442a1d3394e7bc30ca
+guid: 35dd709d55981e1479bb93c7e104365b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -66,7 +66,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 16384
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bat Sprite_0
+      name: Bat attack_0
       rect:
         serializedVersion: 2
         x: 0
@@ -118,14 +118,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d0b8a0a77d723148a980866d28bb69b
-      internalID: -1388071230
+      spriteID: bc8ea4f4c126b1244a56081bb9a78439
+      internalID: -1434630292
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bat Sprite_1
+      name: Bat attack_1
       rect:
         serializedVersion: 2
         x: 150
@@ -139,14 +139,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 050f89e3b042f4f46a15dfb9e10f657f
-      internalID: 1258818491
+      spriteID: cb3a48bfb6790ab41ae16db73d786986
+      internalID: -1910203391
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bat Sprite_2
+      name: Bat attack_2
       rect:
         serializedVersion: 2
         x: 300
@@ -160,14 +160,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd6e6bb37ab093047abf46399c7219a0
-      internalID: 329978596
+      spriteID: cbed2612d856ac54692f6d055daa02af
+      internalID: -962992630
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bat Sprite_3
+      name: Bat attack_3
       rect:
         serializedVersion: 2
         x: 450
@@ -181,14 +181,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f75418f2dcbd2a347bad5de0b63c75bc
-      internalID: 540618678
+      spriteID: 4106018e40302054dacf9ac6e8dcde94
+      internalID: -1985367609
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bat Sprite_4
+      name: Bat attack_4
       rect:
         serializedVersion: 2
         x: 600
@@ -202,14 +202,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1b076be2d26254468c8369e4be3d302
-      internalID: 1643134075
+      spriteID: c405b01064d3a0b4585155f0b71c70af
+      internalID: -1360986992
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bat Sprite_5
+      name: Bat attack_5
       rect:
         serializedVersion: 2
         x: 750
@@ -223,8 +223,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6a6f693260fb4f4090933f4f98537fb
-      internalID: 255127660
+      spriteID: a9c445c63a2d0374cbdae365593fd029
+      internalID: 573929880
       vertices: []
       indices: 
       edges: []
@@ -240,12 +240,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Bat Sprite_5: 255127660
-      Bat Sprite_2: 329978596
-      Bat Sprite_1: 1258818491
-      Bat Sprite_0: -1388071230
-      Bat Sprite_4: 1643134075
-      Bat Sprite_3: 540618678
+      Bat attack_0: -1434630292
+      Bat attack_4: -1360986992
+      Bat attack_5: 573929880
+      Bat attack_3: -1985367609
+      Bat attack_1: -1910203391
+      Bat attack_2: -962992630
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6e06b171aabdd8442a1d3394e7bc30ca
+guid: 81ab395a6384ec8458faec2d799105d7
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -66,7 +66,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 16384
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bat Sprite_0
+      name: Bat Hanging_0
       rect:
         serializedVersion: 2
         x: 0
@@ -118,14 +118,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d0b8a0a77d723148a980866d28bb69b
-      internalID: -1388071230
+      spriteID: 7545aa863bd53934e9fe1aad4ef62841
+      internalID: 1075216202
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bat Sprite_1
+      name: Bat Hanging_1
       rect:
         serializedVersion: 2
         x: 150
@@ -139,14 +139,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 050f89e3b042f4f46a15dfb9e10f657f
-      internalID: 1258818491
+      spriteID: 9adf033ca920f9a4eb2f94a0a8e75baf
+      internalID: 1884629843
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bat Sprite_2
+      name: Bat Hanging_2
       rect:
         serializedVersion: 2
         x: 300
@@ -160,14 +160,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd6e6bb37ab093047abf46399c7219a0
-      internalID: 329978596
+      spriteID: 70654da16b6cc9142980f37ba9d245e9
+      internalID: -372418875
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bat Sprite_3
+      name: Bat Hanging_3
       rect:
         serializedVersion: 2
         x: 450
@@ -181,14 +181,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f75418f2dcbd2a347bad5de0b63c75bc
-      internalID: 540618678
+      spriteID: 8bb2ca14aec1ea84cbd149b940a1bd17
+      internalID: -958864070
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bat Sprite_4
+      name: Bat Hanging_4
       rect:
         serializedVersion: 2
         x: 600
@@ -202,29 +202,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1b076be2d26254468c8369e4be3d302
-      internalID: 1643134075
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bat Sprite_5
-      rect:
-        serializedVersion: 2
-        x: 750
-        y: 0
-        width: 150
-        height: 150
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d6a6f693260fb4f4090933f4f98537fb
-      internalID: 255127660
+      spriteID: ad84de206b4d74340861cad9239d1984
+      internalID: 525368310
       vertices: []
       indices: 
       edges: []
@@ -240,12 +219,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Bat Sprite_5: 255127660
-      Bat Sprite_2: 329978596
-      Bat Sprite_1: 1258818491
-      Bat Sprite_0: -1388071230
-      Bat Sprite_4: 1643134075
-      Bat Sprite_3: 540618678
+      Bat Hanging_0: 1075216202
+      Bat Hanging_1: 1884629843
+      Bat Hanging_3: -958864070
+      Bat Hanging_4: 525368310
+      Bat Hanging_2: -372418875
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
