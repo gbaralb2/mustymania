@@ -22,6 +22,8 @@ public class CharacterController2D : MonoBehaviour
 	[Header("Events")]
 	[Space]
 
+	public UnityEvent OnJumpEvent;
+	public UnityEvent OnFallEvent;
 	public UnityEvent OnLandEvent;
 
 	[System.Serializable]
@@ -127,9 +129,21 @@ public class CharacterController2D : MonoBehaviour
 		if (m_Grounded && jump)
 		{
 			// Add a vertical force to the player.
-			m_Grounded = true;
+			m_Grounded = false;
 			m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
 		}
+
+		if (!m_Grounded)
+        {
+			if (m_Rigidbody2D.velocity.y < -0.01)
+            {
+				OnFallEvent.Invoke();
+            }
+			else if (m_Rigidbody2D.velocity.y > 0)
+            {
+				OnJumpEvent.Invoke();
+            }
+        }
 	}
 
 

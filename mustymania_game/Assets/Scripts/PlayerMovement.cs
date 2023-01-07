@@ -54,6 +54,18 @@ public class PlayerMovement : MonoBehaviour
 
     public void onLanding()
     {
+        animator.SetBool("IsFalling", false);
+    }
+
+    public void OnJumping()
+    {
+        animator.SetBool("IsJumping", true);
+        animator.SetBool("IsFalling", false);
+    }
+
+    public void OnFalling()
+    {
+        animator.SetBool("IsFalling", true);
         animator.SetBool("IsJumping", false);
     }
 
@@ -61,6 +73,5 @@ public class PlayerMovement : MonoBehaviour
 
         controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
         jump = false;
-
     }
 }

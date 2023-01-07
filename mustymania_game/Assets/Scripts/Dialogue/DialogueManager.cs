@@ -59,12 +59,25 @@ public class DialogueManager : MonoBehaviour
         foreach (char letter in sentence.ToCharArray())
         {
             dialogueText.text += letter;
-            yield return new WaitForSeconds(textSpeed);
+            yield return new WaitForSecondsRealtime(textSpeed);
         }
     }
+
+
 
     public void EndDialogue()
     {
         animator.SetBool("IsOpen", false);
+        dialogueBox.SetActive(false);
+    }
+
+    private void Update()
+    {
+        /*
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("DialogueBox_Close"))
+        {
+            dialogueBox.SetActive(false);
+        }
+        */
     }
 }
