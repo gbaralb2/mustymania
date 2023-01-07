@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - SoftCollider
   layers:
   - Default
   - TransparentFX
@@ -11,8 +12,8 @@ TagManager:
   - Soft Collider
   - Water
   - UI
-  - 
-  - 
+  - Bullet
+  - Player
   - Obstacle
   - 
   - 
