@@ -12,13 +12,14 @@ GameObject:
   - component: {fileID: 6735343790866598024}
   - component: {fileID: 6735343790866598071}
   - component: {fileID: 6735343790866598025}
+  - component: {fileID: 269745767}
   m_Layer: 5
   m_Name: DialogueBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &6735343790866598070
 RectTransform:
   m_ObjectHideFlags: 0
@@ -81,7 +82,7 @@ MonoBehaviour:
   m_PixelsPerUnitMultiplier: 1
 --- !u!95 &6735343790866598025
 Animator:
-  serializedVersion: 5
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -98,7 +99,19 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &269745767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6735343790866598069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee03fd980cc6d3a4694378c510561883, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6735343791388517363
 GameObject:
   m_ObjectHideFlags: 0
@@ -518,5 +531,5 @@ MonoBehaviour:
   dialogueBox: {fileID: 6735343790866598069}
   nameText: {fileID: 6735343791388517365}
   dialogueText: {fileID: 6735343792242575869}
-  textSpeed: 0.05
+  textSpeed: 0.025
   animator: {fileID: 6735343790866598025}
