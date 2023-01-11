@@ -11,9 +11,6 @@ public class FollowEnemy : MonoBehaviour
 
     private Rigidbody2D rb;
 
-    [SerializeField]
-    private LayerMask layerMask;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -30,20 +27,6 @@ public class FollowEnemy : MonoBehaviour
         else
         {
             //ATTACK CODE
-        }
-    }
-
-    private void FixedUpdate()
-    {
-        RaycastHit2D hitWallLeft = Physics2D.Raycast(transform.position, Vector2.left, 2f, layerMask);
-        Debug.DrawRay(transform.position, Vector2.left, Color.red);
-
-        //RaycastHit2D hitWallRight = Physics2D.Raycast(wallRayRight.transform.position, Vector2.right);
-        //Debug.DrawRay(wallRayRight.transform.position, Vector2.right * hitWallRight.distance, Color.red);
-
-        if (hitWallLeft.collider != null)
-        {
-            rb.AddForce(new Vector2(0f, 35f));
         }
     }
 }

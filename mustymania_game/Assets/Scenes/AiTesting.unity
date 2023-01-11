@@ -267,7 +267,7 @@ GameObject:
   m_Component:
   - component: {fileID: 298163380}
   - component: {fileID: 298163379}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Platforms
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -314,7 +314,7 @@ GameObject:
   - component: {fileID: 656595713}
   - component: {fileID: 656595712}
   - component: {fileID: 656595711}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -830,7 +830,7 @@ CapsuleCollider2D:
   m_GameObject: {fileID: 824386254}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 3b708c6c1fc594449a5fce62fbdc6453, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -968,13 +968,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d8b00fcd1a849e4bb5e471e59688d41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
+  speed: 4
   target: {fileID: 97023129}
   minimumDistance: 2
   maximumDistance: 8
-  layerMask:
+  isGrounded: 0
+  obstacles:
     serializedVersion: 2
     m_Bits: 256
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 512
 --- !u!114 &824386263
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1390,6 +1394,10 @@ PrefabInstance:
     - target: {fileID: 4351988540115573044, guid: 43ec086b18be0f44aa6102f40e9bfbbc, type: 3}
       propertyPath: m_MovementSmoothing
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4351988540115573044, guid: 43ec086b18be0f44aa6102f40e9bfbbc, type: 3}
+      propertyPath: m_WhatIsGround.m_Bits
+      value: 887
       objectReference: {fileID: 0}
     - target: {fileID: 9028168319371368873, guid: 43ec086b18be0f44aa6102f40e9bfbbc, type: 3}
       propertyPath: m_Layer
